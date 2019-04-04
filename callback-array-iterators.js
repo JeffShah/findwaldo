@@ -4,7 +4,7 @@
   { x: 8, y: 15 }
   ];
   var result = input.map(function(num) {
-    return Math.sqrt(Math.pow(num.x, 2) + Math.pow(num.y, 2));
+    return Math.sqrt(Math.pow(num.x, 2) + Math.pow(num.y, 2)); //Pythagorean Theorem
   });
 
   console.log(result[0] === 5);
